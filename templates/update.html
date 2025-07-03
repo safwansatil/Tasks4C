@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Task4C - Update</title>
+{% endblock %}
+
+{% block body %}
+<div class="row justify-content-center">
+    <div class="col-md-6 col-lg-5">
+        <div class="card shadow-sm border-0">
+            <div class="card-body">
+                <h2 class="sbr-header text-center mb-3">Update Task <span class="sbr-accent">•</span></h2>
+                <form action="/update/{{task.id}}" method="POST" class="d-flex gap-2 align-items-center">
+                    <input type="text" name="content" id="content" class="form-control" value="{{task.content}}"
+                        required>
+                    <button type="submit" class="btn btn-primary sbr-header"
+                        style="background:#4b7bbf; border:none;">Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

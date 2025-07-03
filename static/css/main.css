@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', Arial, sans-serif;
+    background: #e3f0fc;
+}
+
+.jojo-heading {
+    font-family: 'Bangers', cursive;
+    text-shadow: 2px 2px 0 #fff176, 4px 4px 0 #b96dd1;
+}
+
+.sbr-header {
+    color: #4b7bbf;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.sbr-accent {
+    color: #bfa76f;
+}
+
+.card {
+    border-radius: 1.1rem;
+    box-shadow: 0 4px 18px 0 rgba(75, 123, 191, 0.10);
+    border: none;
+}
+
+.btn-primary.sbr-header {
+    background: #4b7bbf;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: background 0.15s, box-shadow 0.15s, transform 0.12s;
+}
+
+.btn-primary.sbr-header:hover {
+    background: #355a8a;
+    box-shadow: 0 2px 8px #4b7bbf33;
+    transform: translateY(-2px) scale(1.04);
+}
+
+.btn-success.jojo-heading {
+    background: linear-gradient(90deg, #f7b731 60%, #b96dd1 100%);
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 8px #b96dd133;
+    transition: transform 0.1s;
+}
+
+.btn-success.jojo-heading:hover {
+    transform: scale(1.07) rotate(-2deg);
+    background: linear-gradient(90deg, #b96dd1 60%, #f7b731 100%);
+}
+
+.btn-warning.jojo-heading {
+    background: linear-gradient(90deg, #e17055 60%, #f7b731 100%);
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 8px #e1705533;
+    transition: transform 0.1s;
+}
+
+.btn-warning.jojo-heading:hover {
+    transform: scale(1.07) rotate(2deg);
+    background: linear-gradient(90deg, #f7b731 60%, #e17055 100%);
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+input.form-control:focus {
+    border-color: #4b7bbf;
+    box-shadow: 0 0 0 0.15rem #4b7bbf22;
+}
+
+.alert-light {
+    border-color: #bfa76f;
+    color: #4b7bbf;
+    font-weight: 500;
+}
+
+.alert-warning {
+    background: #fff9e6;
+    border-color: #f7b731;
+    color: #b96dd1;
+    font-family: 'Bangers', cursive;
+    font-size: 1.1em;
+}
