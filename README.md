@@ -1,6 +1,12 @@
 # Task4C
 
-A modern, and fun task manager built with Flask. No Distractions
+A modern, fun, and distraction-free task manager built with Flask.  
+Inspired by D4C — here, your tasks stay organized.
+
+![Preview](preview.png)
+
+---
+
 
 ## Features
 - Add, update, and delete tasks
